@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Harkirat Thapar</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<title>Instafeed on Your Website</title>
+
+</head>
+
+-->
+
+
+	<style type="text/css">
+		a img{ 
+			width: 25%;
+
+			grid-template-rows: 3;
+			grid-template-columns: : 3;
+			padding-left: 10px;
+		}
+	</style>
+<body>
+
+
+ <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+        <div class="row s-header__nav-wrap">
+            <nav class="s-header__nav">
+                <ul>
+                    <li class="current"><a class="smoothscroll" href="index.html">Home</a></li>
+                    <li><a class="smoothscroll" href="index.html #about">About</a></li>
+                    <li><a class="smoothscroll" href="index.html #exp">Experience</a></li>
+                    <li><a class="smoothscroll" href="index.html #portfolio">Skills</a></li>
+                    <li><a class="smoothscroll" href="index.html #latest">Latest works</a></li>
+                    <li><a class="smoothscroll" href="index.html #contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div> <!-- end row -->
+        
+        <a class="s-header__menu-toggle" href="#0" title="Menu">
+            <span class="s-header__menu-icon"></span>
+        </a>
+    </header> <!-- end s-header -->
+
+
+    <!-- mainpage
+    ================================================== -->
+
+
+
+	<h1></h1>
+
+	<h1 style="text-align: center ; color:white" >Some of my latest works</h1>
+	<h1></h1>
+    	<div id="instafeed-container"></div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+	<script type="text/javascript">
+	var userFeed = new Instafeed({
+		get: 'user',
+		target: "instafeed-container",
+    	resolution: 'low_resolution',
+		accessToken: 'IGQVJWZAXR3UGpFNVNWVmx0MWpOb1owQzBqZADVDMWNVVHJjX0pQaG00c2d0V3FaVVBnZA280WTRjOXp4RnFQWGRSX3R5R3I5RFJtc010WGNvSWFfRmFXN1dua2N0MGlNUzFyWnRQR1R3bEQ2NHJhTGFiWAZDZD'
+	});
+	userFeed.run();
+	</script>
+
+
+
+
+
+	   <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        <div class="row">
+            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+                <ul class="s-footer__social">
+                    <li><a href="https://www.youtube.com/channel/UCPVFT23plwJDB27OazYwTdg"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                    <li>    <a href="https://www.instagram.com/harkiratthapar/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+                <span>© Copyright Harkirat 2077</span> 
+                <span>Design by <a href="http://harkiratthapar.com/">Harkirat Thapar</a></span>
+            </div>
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
+             </a>
+        </div> <!-- end ss-go-top -->
+    </footer>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
